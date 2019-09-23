@@ -1,8 +1,6 @@
 /* Media Query */
 
-@media (min-width:320px) and (max-width: 576px) {
-
-
+@media (min-width: 320px) and (max-width: 576px) {
     .header-logo {
         margin-left: 30%;
     }
@@ -31,4 +29,48 @@
         margin-right: auto;
     }
 
+    .content-container {
+        text-align: center !important;
+    }
+
+    .dsp-inb {
+        display: inline-block !important;
+    }
+}
+
+/* iPad */
+/* Media Query */
+
+@media (min-width: 577px) and (max-width: 1140px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        text-align: center !important;
+    }
+
+    .hero__heading-paragraph {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .btn-lightviolat,
+    .btn-orange {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-container {
+        text-align: center !important;
+    }
+
+    .dsp-inb {
+        display: inline-block !important;
+    }
 }
