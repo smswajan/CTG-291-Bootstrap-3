@@ -189,6 +189,7 @@ li.nav-item a.navbar-toggler-icon:active {
     background-image: url(../img/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
 }
 
 .hero__heading {
