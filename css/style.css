@@ -25,20 +25,21 @@ section {
     float: left;
 }
 
-h1 {
-}
 .btn-animated {
     transition: all 0.2s;
     position: relative;
 }
+
 .btn-animated:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 .btn-animated:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 .btn-animated::after {
     content: "";
     display: inline-block;
@@ -51,6 +52,7 @@ h1 {
     z-index: -1;
     transition: all 0.4s;
 }
+
 .btn-animated:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
@@ -72,6 +74,7 @@ h1 {
     border: none;
     outline: none;
 }
+
 .img-full {
     height: 100%;
     width: auto;
@@ -98,15 +101,19 @@ p {
     font-family: "Lato", sans-serif;
     font-weight: normal !important;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none !important;
 }
+
 button:focus {
     outline: none;
 }
+
 .img-center {
     display: block;
     margin: 0 auto;
@@ -153,6 +160,7 @@ button:focus {
 ul.navbar-nav.ml-auto {
     text-align: center;
 }
+
 li.nav-item a.nav-link {
     color: black;
     font-family: "Roboto Slab", serif;
@@ -171,6 +179,7 @@ li.nav-item a.nav-link.active {
     padding: 5px 22px;
     border-radius: 30px;
 }
+
 li.nav-item a.navbar-toggler-icon:active {
     border-radius: 0px;
 }
@@ -211,6 +220,7 @@ li.nav-item a.navbar-toggler-icon:active {
     color: #161616;
     font-weight: bold;
 }
+
 .news-paragraph {
     margin-left: 5%;
     margin-right: 5%;
@@ -228,6 +238,7 @@ li.nav-item a.navbar-toggler-icon:active {
     display: inline-block;
     text-decoration: none;
 }
+
 .btn-news:hover {
     text-decoration: none;
 }
@@ -244,11 +255,9 @@ li.nav-item a.navbar-toggler-icon:active {
 .newsletter {
     width: 100%;
     float: left;
-    background-image: linear-gradient(
-            to right,
+    background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ),
+            rgba(0, 0, 0, 0.5)),
         url(../img/newsletter.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -257,6 +266,7 @@ li.nav-item a.navbar-toggler-icon:active {
 .news-form {
     transition: all 0.5s;
 }
+
 .news-form input {
     transition: all 0.5s;
 }
@@ -296,12 +306,15 @@ li.nav-item a.navbar-toggler-icon:active {
     font-family: "Roboto Slab", serif;
     font-weight: 300;
 }
+
 .hover-white {
     color: white;
 }
+
 .hover-white:hover {
     color: white !important;
 }
+
 .btn-lightviolat {
     background-color: #4b4e73;
     display: inline-block;
