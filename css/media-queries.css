@@ -1,6 +1,9 @@
 /* Media Query */
 
 @media (min-width: 320px) and (max-width: 576px) {
+    .hero__heading {
+        margin-top: 80px;
+    }
     .header-logo {
         margin-left: 30%;
     }
